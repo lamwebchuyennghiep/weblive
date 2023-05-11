@@ -1,0 +1,80 @@
+[
+    {
+        "id": "1",
+        "name": "Tay lor ",
+        "age": 18,
+        "job": "Freelancer",
+        "height": "160cm",
+        "location": "HN",
+        "detail": ["cao", "to"],
+        "image": "https://qph.cf2.quoracdn.net/main-qimg-63d806db72f6d3c4fd854d569a13124b-pjlq",
+        "price": "Invalid faker method - random.number",
+        "desc": "port World",
+        "hobbies": ["da bong", "xem phim"]
+    },
+    {
+        "id": "2",
+        "name": "Chi Pu",
+        "age": 18,
+        "job": "Freelancer",
+        "height": "160cm",
+        "location": "HN",
+        "detail": ["cao", "to"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png/220px-191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png",
+        "price": "Invalid faker method - random.number",
+        "desc": "port World",
+        "hobbies": ["da bong", "xem phim"]
+    },
+    {
+        "id": "3",
+        "name": "Chi Pu",
+        "age": 18,
+        "job": "Freelancer",
+        "height": "160cm",
+        "location": "HN",
+        "detail": ["cao", "to"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png/220px-191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png",
+        "price": "Invalid faker method - random.number",
+        "desc": "port World",
+        "hobbies": ["da bong", "xem phim"]
+    },
+    {
+        "id": "4",
+        "name": "Chi Pu",
+        "age": 18,
+        "job": "Freelancer",
+        "height": "160cm",
+        "location": "HN",
+        "detail": ["cao", "to"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png/220px-191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png",
+        "price": "Invalid faker method - random.number",
+        "desc": "port World",
+        "hobbies": ["da bong", "xem phim"]
+    },
+    {
+        "id": "5",
+        "name": "Chi Pu",
+        "age": 18,
+        "job": "Freelancer",
+        "height": "160cm",
+        "location": "HN",
+        "detail": ["cao", "to"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png/220px-191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png",
+        "price": "Invalid faker method - random.number",
+        "desc": "port World",
+        "hobbies": ["da bong", "xem phim"]
+    },
+    {
+        "id": "6",
+        "name": "Chi Pu",
+        "age": 18,
+        "job": "Freelancer",
+        "height": "160cm",
+        "location": "HN",
+        "detail": ["cao", "to"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png/220px-191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png",
+        "price": "Invalid faker method - random.number",
+        "desc": "port World",
+        "hobbies": ["da bong", "xem phim"]
+    }
+]

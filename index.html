@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+
+<body style="font-size: 12px;" >
+    <!-- <input type="text" readonly="" id="input-invite-code"> -->
+    <!--<a href="https://kf.saleonline.vip/index/index?code=6%2BOTOfSIiSeF0yYFJIXazW00L01262Xlw7uaRhOzTQ9RL7oNsJuYdo5mAS%2FBQQbm3iw2zi4GInhvF37WkNeQkkEQBBUEZjMywNLcUBr0rE%2BQaaxx0%2FwVYNp7CmQHCPEmSEeY">-->
+    <!--<a href="https://kf.saleonline.vip/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=admin&groupid=0&service_name=kefu" target="_blank">-->
+    <!--<img src="./img/cskh1.png" alt="" srcset="" id="kefu-img"></a>-->
+    <div id="overlay-div" style="display: none;">
+        <div id="overlay-alter-div">
+            <ul>
+                <li>My-Chat</li>
+                <li>
+                    <span>Nghiêm túc - Uy Tín - Chất Lượng <br><strong style="color: #e89a9e" class="tmd">Hẹn hò miễn
+                            phí 100%</strong>
+                    </span>
+                </li>
+                <!--<li><a style="background: #FAE2B0; padding: 10px; border-radius: 8px; color: black;" href="https://download.saleonline.vip" target="_blank">Tải Ngay</a></li>-->
+                <li><a style="background: #e89a9e; padding: 10px; border-radius: 8px; color: white;cursor: pointer;"
+                        id="downloadButton" onclick="toDownload()">Tải Ngay</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <h1 class="blink-text">Hello World</h1>
+
+                    <button class="download-button">Tải ngay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <div class="hader">
+            <img src="./img/headernew.png">
+        </div>
+        <div class="container">
+            <div class="photos">
+                <div><img src="./img/headernew.png"></div>
+                <div><img src="./img/headernew.png"></div>
+                <div><img src="./img/headernew.png"></div>
+                <div><img src="./img/headernew.png"></div>
+                <div><img src="./img/headernew.png"></div>
+                <div><img src="./img/headernew.png"></div>
+            </div>
+            <div class="search-box">
+                <input type="text" name="search"> <button id="search">Tìm kiếm</button>
+            </div>
+            <ul class="list">
+
+            </ul>
+            <div class="more"  data-bs-toggle="modal" data-bs-target="#exampleModal">Xem Thêm Tại Đây</div>
+        </div>
+        <div class="footer" id="footer" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="logo"><img src="./img/logo.png"></div>
+            <div class="tips_text">
+                <div><b class="textola" style="color:#f8f8fa">My-Chat ỨNG DỤNG HẸN HÒ<br> MIỄN PHÍ 100%</b><span></span>
+                </div>
+                <span class="livechat" style="color:#f8f8fa">NGHIÊM TÚC - UY TÍN - CHẤT LƯỢNG</span>
+            </div>
+            <!-- <input type="text" id="copy" readonly=""> -->
+            <div class="download" style="cursor: pointer;" onclick="toDownload()">Tải Ngay</div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
